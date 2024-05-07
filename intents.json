@@ -1,0 +1,78 @@
+{
+    "intents": [
+        {
+            "tags": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you ?",
+                "Hi there, how can i help ?"
+            ]
+        },
+        
+        {
+           "tags": "goodbye",
+           "patterns": ["Bye", "See you later", "Goodbye"],
+           "responses": [
+            "See you later, thanks for visiting",
+            "Have a nice day",
+            "Bye! Come back again soon."
+           ]
+        },
+        
+        {
+           "tags":"thanks",
+           "patterns": ["Thanks", "Thank you", "That's helpful", "That's a lot!"],
+           "responses": ["Happy to help!", "Any time!", "my pleasure"]
+
+        },
+
+        {
+            "tags": "items",
+            "patterns": [
+                "which items do you have?",
+                "what kinds of items are there?",
+                "what do you sell?"
+            ],
+            "responses": [
+                "We sell coffee and tea",
+                "We have coffee and tea"
+            ]
+        },
+
+        {
+            "tags": "payments",
+            "patterns": [
+                "Do you take credit cards",
+                "Do you accept Mastercard?",
+                "Can i pay with Paypal?",
+                "Are you cash only?"
+            ],
+            "responses":[
+                "Delivery takes 2-4 days",
+                "Shipping takes 2-4 days"
+            ]
+        },
+        
+        {
+           "tags": "funny",
+           "patterns": [
+            "Tell me a joke!",
+            "Tell me something funny!",
+            "Do you know a joke? "
+           ],
+           "responses": [
+            "Why did the hipster burn his mouth? He drank the coffee before it was cool",
+            "What did the buffalo say when his son left for college? Bison"
+           ]
+        }
+    ]
+}
