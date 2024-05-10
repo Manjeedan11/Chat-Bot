@@ -5,75 +5,76 @@
             "patterns": [
                 "Hi",
                 "Hey",
-                "How are you",
-                "Is anyone there",
-                "Hello",
-                "Good day"
+                "Hello"
             ],
             "responses": [
-                "Hey :-)",
-                "Hello, thanks for visiting",
-                "Hi there, what can I do for you ?",
-                "Hi there, how can i help ?"
+                "Hey! Welcome to our store.",
+                "Hello there! How can I assist you today?",
+                "Hi! How can I help you?"
             ]
         },
-        
         {
-           "tags": "goodbye",
-           "patterns": ["Bye", "See you later", "Goodbye"],
-           "responses": [
-            "See you later, thanks for visiting",
-            "Have a nice day",
-            "Bye! Come back again soon."
-           ]
+            "tags": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+                "Goodbye! Have a great day.",
+                "See you later! Thank you for visiting us.",
+                "Bye! Come back soon."
+            ]
         },
-        
         {
-           "tags":"thanks",
-           "patterns": ["Thanks", "Thank you", "That's helpful", "That's a lot!"],
-           "responses": ["Happy to help!", "Any time!", "my pleasure"]
-
+            "tags": "thanks",
+            "patterns": ["Thanks", "Thank you", "Appreciate it"],
+            "responses": ["You're welcome!", "Anytime!", "Glad I could assist!"]
         },
-
         {
             "tags": "items",
             "patterns": [
-                "which items do you have?",
-                "what kinds of items are there?",
-                "what do you sell?"
+                "What items do you sell?",
+                "Can you tell me about your products?",
+                "What kinds of items are available?"
             ],
             "responses": [
-                "We sell coffee and tea",
-                "We have coffee and tea"
+                "We offer a variety of products including electronics, clothing, accessories, and more.",
+                "Our store sells a wide range of items such as electronics, clothing, accessories, and more."
             ]
         },
-
         {
             "tags": "payments",
             "patterns": [
-                "Do you take credit cards",
-                "Do you accept Mastercard?",
-                "Can i pay with Paypal?",
+                "What payment methods do you accept?",
+                "Do you accept credit cards?",
+                "Can I pay with PayPal?",
                 "Are you cash only?"
             ],
-            "responses":[
-                "Delivery takes 2-4 days",
-                "Shipping takes 2-4 days"
+            "responses": [
+                "We accept all major credit cards, PayPal, and cash upon delivery.",
+                "We accept credit cards, PayPal, and cash on delivery."
             ]
         },
-        
         {
-           "tags": "funny",
-           "patterns": [
-            "Tell me a joke!",
-            "Tell me something funny!",
-            "Do you know a joke? "
-           ],
-           "responses": [
-            "Why did you leave the father's occupation section blank on your college application? Never showed up wasn't one of the choices",
-            "Why did the hipster burn his mouth? He drank the coffee before it was cool",
-            "What did the buffalo say when his son left for college? Bison"
-           ]
-        }
+            "tags": "shipping",
+            "patterns": [
+                "How long does shipping take?",
+                "When will my order arrive?",
+                "What's the estimated delivery time?"
+            ],
+            "responses": [
+                "Our standard shipping usually takes 3-5 business days.",
+                "Delivery time varies depending on your location, but it typically takes 3-5 business days."
+            ]
+        },
+        {
+          "tags": "funny",
+          "patterns": [
+              "Tell me a joke!",
+              "Tell me something funny!",
+              "Do you know a joke?"
+          ],
+          "responses": [
+              "Why did you leave the father's occupation section blank on your college application? Never showed up wasn't one of the choices"
+    ]
+}
+
     ]
 }
