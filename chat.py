@@ -23,7 +23,7 @@ model = NeuraNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "FATHIMA"
+bot_name = "F.R.I.D.A.Y"
 print("Let's chat baby ! type 'quit' to exit ")
 while True:
     sentence = input('You : ')
