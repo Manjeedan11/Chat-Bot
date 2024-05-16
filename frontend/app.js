@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let botDiv = document.createElement("div");
     let botImg = document.createElement("img");
     let botText = document.createElement("span");
-    let botName = "FRIDAY";
+    let botName = "NeuraPT";
 
     botDiv.id = "bot";
     botImg.src = "bot-mini.png";
